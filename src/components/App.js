@@ -1,10 +1,10 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from "react";
+import LinkList from "./LinkList";
 
-function App() {
-  return <div className="App">
-    
-  </div>;
+class App extends Component {
+  render() {
+    return <LinkList />;
+  }
 }
 
 export default App;
